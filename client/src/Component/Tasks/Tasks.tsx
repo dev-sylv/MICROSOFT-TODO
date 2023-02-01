@@ -37,6 +37,7 @@ const Tasks = () => {
 			});
 	};
 
+	const getCompletedTasks = userData.task.filter(el: any) => {else.status === true}
 	React.useEffect(() => {
 		ReadMyDay();
 	}, [currentUser]);
